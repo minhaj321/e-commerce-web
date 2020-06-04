@@ -45,6 +45,7 @@ div p img{width: 25px;
 height: 25px;
 border-radius: 50%;}
 .about-font-family{font-family: cursive;}
+.heading-about{margin-left: 13vw;}
 .about-color{color:white; }
 .about-color-2{color:grey;}
 dt h3{text-decoration: underline;}
@@ -53,7 +54,7 @@ margin-top: 10px;}
 .footer{ background-color: #b5e61d;}
 .footer ul li{display: inline; margin-left: 15px; color: green;}
 .copyright{margin-right: 30px;}
-
+.heading-contact{margin-left: 12vw;}
 
 
 
@@ -61,6 +62,8 @@ margin-top: 10px;}
 @media screen and (max-width: 1024px){
 
 #shopping{font-size: 28px; font-weight: bold;}
+.heading-about{margin-left: 10vw;}
+.heading-contact{margin-left: 9vw;}
 
 }
 
@@ -73,7 +76,11 @@ margin-top: 10px;}
 		.header div div span{font-size: 11px; margin-right: 12px;}
 		.header div div{margin-top: 20px;}
 			.header div h1{font-size: 18px; margin:auto;}
+.heading-contact{margin-left: 4vw;}
+.heading-about{margin-left: 6vw;}
+
 }
+
 @media screen and (max-width: 500px)
 {
 	.header div img{width: 30px; margin-top:10px;
@@ -81,14 +88,24 @@ margin-top: 10px;}
 		.header div div span{font-size: 9px; margin-right: 12px;}
 		.header div div{margin-top: 20px;}
 			.header div h1{font-size: 15px; margin:auto;}
+		.heading-contact{margin-left: 14vw; font-size: 32px; font-weight: bold;}
+		.heading-about{margin-left: -6vw; font-size: 32px; font-weight: bold;}
+
+
+
 		}
 
 @media screen and (max-width: 430px){
 	#shopping{margin-left: 25vw;}
+	.heading-contact{margin-left:15vw;}
+	.heading-about{margin-left: -5vw;}
 }
 
 @media screen and (max-width: 375px){
 	#shopping{margin-left: 20vw;}
+	.heading-about{margin-left: -12vw;}
+
+	.heading-contact{margin-left: 11vw;}
 }
 @media screen and (max-width: 320px)
 {
@@ -99,4 +116,8 @@ margin-top: 10px;}
 			.header div h1{font-size: 18px;}
 		#shopping{margin-left: 19vw;
 			margin-top: 8px;}
+		
+	.heading-about{margin-left: -12vw; font-weight: bold; font-size: 26px;}
+	.heading-contact{margin-left: 10vw; font-weight: bold; font-size: 26px;}
+
 		}
